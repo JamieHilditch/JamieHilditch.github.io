@@ -6,6 +6,8 @@ var squareHeight = 10; /* pixels */
 var box = document.getElementById("box");
 var boxWidth = 250; /* pixels */
 var boxHeight = 250; /* pixels */
+square.style.width = squareWidth+"px";
+square.style.height = squareHeight+"px";
 var t = setInterval(move, 1000);
 
 
