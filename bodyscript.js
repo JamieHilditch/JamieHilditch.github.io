@@ -8,8 +8,8 @@ var boxWidth = box.offsetWidth;
 var boxHeight = box.offsetHeight;
 var t = setInterval(move, 1000);
 function move() {
-  xpos = Math.floor(Math.random()*(boxWidth - squareWidth + 1));
-  ypos = Math.floor(Math.random()*(boxHeight - squareHeight + 1));
+  xpos = Math.floor(Math.random()*(200));
+  ypos = Math.floor(Math.random()*(200));
   square.style.left = xpos+"px";
   square.style.top = ypos+"px";
 }
