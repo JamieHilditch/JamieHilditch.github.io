@@ -1,8 +1,8 @@
 var xpos = 0;
 var ypos = 0;
 var square = document.getElementById("square");
-var squareWidth = 10; /* pixels */
-var squareHeight = 10; /* pixels */
+var squareWidth = 64; /* pixels */
+var squareHeight = 64; /* pixels */
 var box = document.getElementById("box");
 var boxWidth = 250; /* pixels */
 var boxHeight = 250; /* pixels */
