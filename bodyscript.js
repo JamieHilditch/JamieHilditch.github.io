@@ -4,7 +4,7 @@ var square = document.getElementById("square");
 var squareWidth = 250; /* pixels */
 var squareHeight = 250; /* pixels */
 var box = document.getElementById("box");
-var boxWidth = 50; /* pixels */
+var boxWidth = 10; /* pixels */
 var boxHeight = 50; /* pixels */
 var t = setInterval(move, 1000);
 
