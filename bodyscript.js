@@ -1,11 +1,11 @@
 var xpos = 0;
 var ypos = 0;
 var square = document.getElementById("square");
-var squareWidth = 250; /* pixels */
-var squareHeight = 250; /* pixels */
+var squareWidth = 10; /* pixels */
+var squareHeight = 10; /* pixels */
 var box = document.getElementById("box");
-var boxWidth = 10; /* pixels */
-var boxHeight = 10; /* pixels */
+var boxWidth = 250; /* pixels */
+var boxHeight = 250; /* pixels */
 var t = setInterval(move, 1000);
 
 
