@@ -2,6 +2,7 @@ p {color: red;}
 #box {
   width: 250px;
   height: 250px;
+  background: blue;
   border: 2px solid black;
   position: relative;
 }
