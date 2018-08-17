@@ -6,8 +6,9 @@ var squareHeight = square.offsetHeight;
 var box = document.getElementById("box");
 var boxWidth = box.offsetWidth;
 var boxHeight = box.offsetHeight;
+document.write("Hi");
 var t = setInterval(move, 1000);
-alert("Hi");
+
 function move() {
   xpos = Math.floor(Math.random()*(200));
   ypos = Math.floor(Math.random()*(200));
