@@ -11,7 +11,7 @@ var t = setInterval(move, 1000);
 
 function move() {
   square.style.width = squareWidth+"px";
-  square.style.heigth = squareHeight+"px";
+  square.style.height = squareHeight+"px";
   xpos = Math.floor(Math.random()*(boxWidth - squareWidth + 1));
   ypos = Math.floor(Math.random()*(boxHeight - squareHeight + 1));
   square.style.left = xpos+"px";
