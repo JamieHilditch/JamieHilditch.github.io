@@ -7,6 +7,7 @@ var box = document.getElementById("box");
 var boxWidth = box.offsetWidth;
 var boxHeight = box.offsetHeight;
 var t = setInterval(move, 1000);
+document.write(boxWidth)
 function move() {
   xpos = Math.floor(Math.random()*(200));
   ypos = Math.floor(Math.random()*(200));
