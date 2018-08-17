@@ -9,10 +9,10 @@ var boxHeight = 250; /* pixels */
 square.style.width = squareWidth+"px";
 square.style.height = squareHeight+"px";
 var t = setInterval(move, 1000);
-square.onclick = function () {
+/* square.onclick = function () {
   squareWidth = squareWidth / 2;
   squareHeight = squareHeight / 2;
-}
+} */
 
 
 function move() {
