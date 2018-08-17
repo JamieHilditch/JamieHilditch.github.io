@@ -6,7 +6,7 @@ var squareHeight = square.offsetHeight;
 var box = document.getElementById("box");
 var boxWidth = box.offsetWidth;
 var boxHeight = box.offsetHeight;
-document.write("Hi");
+alert("Hi");
 var t = setInterval(move, 1000);
 
 function move() {
