@@ -6,6 +6,7 @@ h1 {
   text-align: center;
 }
 #box {
+  align: center;
   width: 250px;
   height: 250px;
   background: blue;
